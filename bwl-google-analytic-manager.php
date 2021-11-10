@@ -6,13 +6,15 @@
   Description: Include Google Analytic code in your website.
   Author: xenioushk
   Author URI:  https://bluewindlab.net
+  Text Domain: bwl_gam
+  Domain Path: /languages/
  */
 
 // Make sure it's wordpress
 if (!defined('ABSPATH'))
     die('Forbidden');
 
-Class BWL_Google_Analytic_Manager {
+Class BWL_Gam {
 
     function __construct() {
 
@@ -32,18 +34,19 @@ Class BWL_Google_Analytic_Manager {
             $bgam_loc = get_option('bgam_loc');
 
             if ($bgam_loc == 'header') {
-                add_action('wp_head', array(&$this, 'bwl_google_analytics_tracking_code'));
+                add_action('wp_head', array(&$this, 'bwl_gam_tracking_code'));
             } else {
-                add_action('wp_footer', array(&$this, 'bwl_google_analytics_tracking_code'));
+                add_action('wp_footer', array(&$this, 'bwl_gam_tracking_code'));
             }
         }
 
         $this->includes();
     }
 
-    function bwl_google_analytics_tracking_code() {
+    function bwl_gam_tracking_code() {
 
         echo get_option('bgam_code');
+
     }
 
     function includes() {
@@ -57,9 +60,11 @@ Class BWL_Google_Analytic_Manager {
 
 /* ------------------------------ Initialization --------------------------------- */
 
-function init_bwl_google_analytic_manager() {
+function init_bwl_gam() {
 
-    new BWL_Google_Analytic_Manager();
+    new BWL_Gam();
+    load_plugin_textdomain('bwl_gam', false, plugin_basename(dirname(__FILE__)).'/languages');
+    
 }
 
-add_action('init', 'init_bwl_google_analytic_manager');
+add_action('init', 'init_bwl_gam');

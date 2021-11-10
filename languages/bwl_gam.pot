@@ -1,0 +1,271 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Searchable Accordion - WPBakery Page Builder "
+"Addon\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-07-23 23:26+0600\n"
+"PO-Revision-Date: 2018-01-31 21:24+0600\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: BlueWindLab <hkhan.cse@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: _;__;_n;_x;_e;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../includes/usa-vc-element.php:38
+msgid "Content"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:54
+msgid "Enable Accordion Toggle Status"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:56 ../includes/usa-vc-element.php:67
+#: ../includes/usa-vc-element.php:76 ../includes/usa-vc-element.php:111
+#: ../includes/usa-vc-element.php:163 ../includes/usa-vc-element.php:198
+#: ../includes/usa-vc-element.php:388 ../includes/usa-vc-element.php:430
+msgid "Yes"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:65
+msgid "Enable expand/collapse button"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:74
+msgid "Disable closed all section"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:83
+msgid "Opened Items Type"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:99
+msgid "Set the number of custom opened rows."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:101
+msgid ""
+"Example: Example: Set 0,3 and it will opened first and fourth row of "
+"accordion."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:109
+msgid "Enable RTL mode"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:119
+msgid "Accordion Extra Class"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:122
+msgid "Add Extra Class For Accordion Block"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:132
+msgid "Animation"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:161
+msgid "Display search box?"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:169
+msgid "Set custom search input placeholder:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:177
+msgid "Set custom message for content found:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:186
+msgid "Set custom message for nothing found:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:196
+msgid "Display Search Suggestion Box?"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:204
+msgid "Set Custom Suggestion Box Title:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:206 ../includes/usa-vc-shortcodes.php:46
+msgid "Your KeyWords: "
+msgstr ""
+
+#: ../includes/usa-vc-element.php:213
+msgid "Set Custom Keywords:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:226 ../includes/usa-vc-element.php:247
+#: ../includes/usa-vc-element.php:256 ../includes/usa-vc-element.php:265
+#: ../includes/usa-vc-element.php:275 ../includes/usa-vc-element.php:284
+#: ../includes/usa-vc-element.php:293
+msgid "Theme"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:239
+msgid "Select accordion theme from the list."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:243
+msgid "Accordion Title BG"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:246
+msgid "Set accordion title background."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:252
+msgid "Accordion Title Text"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:255
+msgid "Set accordion title text color."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:261
+msgid "Navigation Box BG"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:264
+msgid "Set accordion navigataion background color."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:271
+msgid "Active Accordion Title BG"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:274
+msgid "Set active accordion title background."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:280
+msgid "Active Accordion Title Text"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:283
+msgid "Set active accordion title text color."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:289
+msgid "Active Navigation Box BG"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:292
+msgid "Set active accordion navigataion background color."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:300
+msgid "Title Tag"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:310
+msgid "Title Tag Front Size: "
+msgstr ""
+
+#: ../includes/usa-vc-element.php:314
+msgid "Set the font size (example: 15 ) of heading tag. Defult size: 15"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:320
+msgid "Search highlighter background:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:323
+msgid "Choose BG color"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:329
+msgid "Search highlighter text color:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:332
+msgid "Choose text color"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:339
+msgid "Accordion content background:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:342
+msgid "Choose BG color of accordion content."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:350
+msgid "Accordion content text color:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:353
+msgid "Choose text color of accordion content."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:361
+msgid "Accordion content link color:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:364
+msgid "Choose text color of accordion content link."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:373
+msgid "Accordion content link hover color:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:376
+msgid "Choose hover text color of accordion content link."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:386
+msgid "Display Navigation Box To Right?"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:397
+msgid "Navigation boxes:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:412
+msgid "Navigation icons:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:428
+msgid "Enable Pagination:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:436
+msgid "Item Per Page:"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:446
+msgid "Accordion Block"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:456
+msgid "Accordion Title"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:463
+msgid "Accordion Content"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:470
+msgid "Accordion Title Icon"
+msgstr ""
+
+#: ../includes/usa-vc-element.php:479
+msgid "Select icon from library."
+msgstr ""
+
+#: ../includes/usa-vc-element.php:484
+msgid "Title Icon Class"
+msgstr ""

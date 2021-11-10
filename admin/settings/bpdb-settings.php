@@ -18,7 +18,7 @@
 
     <div class="wrap faq-wrapper">
 
-       <h2><?php _e('BWL Google Analytics Manager Settings', 'bwl-adv-faq'); ?></h2>
+       <h2><?php _e('BWL Google Analytics Manager Settings', 'bwl_gam'); ?></h2>
 
            <?php 
            
@@ -42,8 +42,6 @@
         ?>
 
        <form action="options-general.php?page=bgam-settings" method="post">
-           <?php //settings_fields('bgam_options')?>
-           <?php //do_settings_sections(__FILE__);?>
            
                 <table class="form-table">
 
@@ -52,28 +50,28 @@
                    <tbody>
 
                        <tr>
-                           <th scope="row">Analytic Code: </th>
+                           <th scope="row"><?php _e('Analytic Code', 'bwl_gam') ?>: </th>
                            <td><textarea style="width: 100%; height: 300px;" id="bgam_code" name="bgam_code"><?php echo $bgam_code; ?></textarea></td>
                        </tr>
                        
                        <tr>
-                           <th scope="row">Enable Code: </th>
+                           <th scope="row"><?php _e('Enable Code', 'bwl_gam') ?>: </th>
                            <td>
                            
                            <select name="bgam_status" id="bgam_status">
-                               <option value="0" <?php ($bgam_status==0) ? _e(' selected=selected', 'bwl-adv-faq') :''?>>No</option>
-                               <option value="1" <?php ($bgam_status==1) ? _e(' selected=selected', 'bwl-adv-faq') :''?>>Yes</option>
+                               <option value="0" <?php echo ($bgam_status==0) ? 'selected=selected' :''; ?>>No</option>
+                               <option value="1" <?php echo ($bgam_status==1) ? 'selected=selected' :''; ?>>Yes</option>
                            </select>
                            </td>
                        </tr>
                        
                        <tr>
-                           <th scope="row">Analytic Code Location: </th>
+                           <th scope="row"><?php _e('Analytic Code Location', 'bwl_gam') ?>: </th>
                            <td>
                            
                            <select name="bgam_loc" id="bgam_loc">
-                               <option value="footer" <?php ($bgam_loc=='footer') ? _e(' selected=selected', 'bwl-adv-faq') :''?>>Footer</option>
-                               <option value="header" <?php ($bgam_loc=='header') ? _e(' selected=selected', 'bwl-adv-faq') :''?>>Header</option>
+                               <option value="footer" <?php echo ($bgam_loc=='footer') ? 'selected=selected' :''; ?>>Footer</option>
+                               <option value="header" <?php echo ($bgam_loc=='header') ? 'selected=selected' :''; ?>>Header</option>
                            </select>
                            </td>
                        </tr>
@@ -83,7 +81,7 @@
                </table>
 
            <p class="submit">
-               <input name="submit" type="submit" class="button-primary" value="<?php _e('Save Settings', 'bwl-adv-faq'); ?>"/>
+               <input name="submit" type="submit" class="button-primary" value="<?php _e('Save Settings', 'bwl_gam'); ?>"/>
            </p>
            
        </form>    
@@ -105,7 +103,7 @@
         if (isset($blog_id) && $blog_id == 1) {
         
             add_submenu_page(
-                    'options-general.php', __('BWL Google Analytics Manager Settings', 'bwl-adv-faq'), __('BWL Google Analytics Manager', 'bwl-adv-faq'), 'administrator', 'bgam-settings', 'bgam_settings'
+                    'options-general.php', __('BWL Google Analytics Manager Settings', 'bwl_gam'), 'Analytics Manager', 'administrator', 'bgam-settings', 'bgam_settings'
             );        
         
         }
